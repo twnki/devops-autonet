@@ -3,7 +3,7 @@
 FROM ubuntu:xenial
 
 RUN DEBIAN_FRONTEND=noninteractive apt-get update && apt-get -y --no-install-recommends \
-    install telnet curl openssh-client nano neovim iputils-ping python build-essential \
+    install telnet curl openssh-client nano vim iputils-ping python build-essential \
     libssl-dev libffi-dev python-pip python3-pip python-setuptools python3-setuptools \
     python-dev net-tools python3 software-properties-common dnsmasq \
     software-properties-common vim lldpd \ 
